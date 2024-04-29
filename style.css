@@ -1,0 +1,484 @@
+body {
+    /* overflow-x: hidden; */
+    background: #EEE7DF;
+    animation: fadepage 3s;
+    /* max-width: 100vh; */
+}
+
+@keyframes fadepage {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/**
+===========================================================================
+                         FOTO VAN MIJ + NAAM 
+===========================================================================
+*/
+
+article {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 22.5em;
+    margin: auto;
+}
+
+article section.mijnfoto {
+    position: relative;
+    top: 1.5em;
+}
+
+article section.mijnfoto > span {
+    height: 0.09em;
+    display: inline-block;
+    position: absolute;
+}
+
+article section.mijnfoto p {
+    position: absolute;
+    bottom: 7.7em;
+    left: 1.5em;
+    letter-spacing: 0.3em;
+    font-size: 0.8em;
+}
+
+article section.mijnfoto p .achternaam {
+    white-space: nowrap;
+    display: none;
+    margin-left: 1em;
+    /* letter-spacing: 0.3em; */
+}
+
+article section.mijnfoto img {
+    max-width: 17em;
+}
+
+
+/**
+===========================================================================
+                                LIJNEN
+===========================================================================
+*/
+
+.linkerbalk {
+    position: fixed;
+    bottom: -2em;
+    left: 0;
+    z-index: -1;
+    width: 8em;
+    opacity: 65%;
+}
+
+.firstline {
+    left: -4.5em;
+    bottom: 7.4em;
+    width: 5em;
+    background: #78212D !important;
+}
+
+.secondline {
+    width: 1em;
+    opacity: 0;
+    background: #78212D !important;
+}
+
+.forthline {
+    background: #D5C3AE;
+    width: 21em;
+    height: .2em;
+}
+
+/**
+===========================================================================
+                            MAVIGATIE BALK
+===========================================================================
+*/
+
+nav ul {
+    display: flex;
+    gap: 1.5em;
+    justify-content: flex-end;
+    padding: 0;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.27em;
+    transition: 0.6s;
+}
+
+nav ul li a:hover {
+    transform: scale(1.03);
+}
+
+nav ul li a span {
+    width: 4em;
+    height: 0.07em;
+    border-radius: 0.2em;
+    background-color: #78212D;
+    display: inline-block;
+    transition: 2s;
+}
+
+.mywork span { /*streep onder My Work */
+    width: 5em;
+}
+
+nav ul li a:hover span {
+    background: #a95964;
+}
+
+/**
+===========================================================================
+        ACHTERGROND INFORMATIE OVER KMD + SOCIAL MEDIA + CTA BUTTON
+===========================================================================
+*/
+.introtekst {
+    display: grid;
+    grid-template-columns: 3.5em 1fr;
+    gap: 1em;
+    margin-top: 3.5em;
+    /* max-width: 21em; */
+}
+
+.introtekst div:first-child {
+    border-right: 0.1em rgba(0, 0, 0, 0.733) solid;
+}
+
+.introtekst img {
+    width: 1.4em;
+    display: block;
+    margin-bottom: 0.5em;
+    margin: 0em 0.7em 0.5em auto;
+}
+
+.introtekst div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1.2em 0;
+}
+
+.introtekst div:nth-child(2) p {
+    width: 18em;
+}
+
+.introtekst div:nth-child(2) a {
+    background: #78212D;
+    text-decoration: none;
+    padding: 16px 24px;
+    color: black;
+    border-radius: 0.3em;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+.introtekst div:nth-child(2) a span:first-child {
+    background-color: hsl(352, 57%, 27%);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    z-index: 0;
+    display: inline-block;
+}
+/** is voor de hover, zodat de tekst te zien blijft wanneer je erover hovert*/
+
+.introtekst div:nth-child(2) a span:nth-child(2) {
+    z-index: 1;
+    position: relative;
+    color: #EEE7DF;
+}
+
+.introtekst div:nth-child(2) a:hover span:first-child {
+    /* background-color: #d17985 ; */
+    width: 100%;
+
+}
+
+
+/**
+===========================================================================
+                        MEDIA QUERY VAN 510 PX
+===========================================================================
+*/
+@media screen and (min-width: 510px) {
+
+    .firstline {
+        left: -7.3em;
+        bottom: 10.7em;
+        width: 10em;
+    }
+
+    .thirdline {
+        width: 10em;
+        opacity: 0.7;
+        bottom: 9.9em;
+        left: -0.8em;
+        height: 0.15em !important;
+        background: #D5C3AE;
+    }
+
+    .forthline {
+        width: 26.7em;
+    }
+
+    article section.mijnfoto p {
+        position: absolute;
+        bottom: 9.2em;
+        left: 3.5em;
+        font-size: 1em;
+    }
+
+    article section.mijnfoto img {
+        max-width: 25em;
+    }
+}
+
+/**
+===========================================================================
+                        MEDIA QUERY VAN 725 PX
+===========================================================================
+*/
+@media screen and (min-width: 725px) {
+
+    article section.mijnfoto p {
+        font-size: 1.2em;
+    }
+    
+    article {
+        justify-content: center;
+        max-width: 70em;
+        gap: 2em;
+    }
+
+    .linkerbalk {
+        bottom: -15.3em;
+        width: 14.1em;
+    }
+
+    .firstline {
+        left: -7.9em;
+        bottom: 12.8em;
+        width: 11em;
+    }
+
+    .thirdline {
+        left: -3em;
+        bottom: 11.9em;
+        width: 14em;
+    }
+
+    article section.mijnfoto img {
+        max-width: 30em;
+    }
+
+    .introtekst div:nth-child(2) p {
+        font-size: 1.1em;
+        width: 21em;
+    }
+
+    .introtekst div:nth-child(2) a{
+        font-size: 1.1em;
+    }
+}
+
+/**
+===========================================================================
+                        MEDIA QUERY VAN 1024 PX
+===========================================================================
+*/
+
+@media screen and (min-width: 1024px) {
+    article section.mijnfoto p .achternaam{
+        display: inline-block;
+    }
+
+    .linkerbalk {
+        bottom: -2.3em;
+        width: 10.1em;
+    }
+        
+    .firstline {
+        left: -20.5em;
+        bottom: 15em;
+        width: 13em;
+    }
+
+    .secondline {
+        width: 1.35em;
+        opacity: 1;
+        bottom: 15em;
+        left: 18.2em;
+    }
+
+    .thirdline {
+        width: 25.3em;
+        left: -12.5em;
+        height: 0.3em !important;
+        bottom: 13.65em;
+    }
+
+    article section.mijnfoto p {
+        bottom: 10em;
+        left: -5em;
+        font-size: 1.3em;
+        letter-spacing: 0.1em;
+    }
+
+    article section.mijnfoto img {
+        max-width: 35em;
+    }
+}
+
+
+/**
+===========================================================================
+                        MEDIA QUERY VAN 1280 PX
+===========================================================================
+*/
+
+@media screen and (min-width: 1280px) {
+    article{
+        flex-direction: row;
+        margin-left:10em;
+        gap:5.5em;
+    }
+
+    article section.mijnfoto p .achternaam{
+        display: inline-block;
+        margin-left: 0.5em
+
+    }
+
+    .linkerbalk {
+        bottom: -3.3em;
+        width: 9.1em;
+    }
+        
+    .firstline {
+        left: -18em;
+        bottom: 13.5em;
+        width: 13em;
+    }
+
+    .secondline {
+        width: 1.7em;
+        opacity: 1;
+        bottom: 13.5em;
+        left: 15.65em;
+
+    }
+
+    .thirdline {
+        width: 17.3em;
+        left: -5.9em;
+        height: 0.3em !important;
+        bottom: 12.4em;
+    }
+
+    article section.mijnfoto p {
+        bottom: 10.7em;
+        left: -3.5em;
+        font-size: 1.1em;
+        letter-spacing: 0.08em;
+    }
+
+    article section.mijnfoto img {
+        max-width: 31em;
+    }
+
+    .introtekst img {
+        width: 1.6em;
+        display: block;
+        margin-bottom: 0.5em;
+        margin: 0em 0.7em 0.5em auto;
+    }
+}
+
+
+
+
+
+/**
+===========================================================================
+===========================================================================
+                                MY WORK
+===========================================================================
+===========================================================================
+*/
+
+.mywork-header{
+    display: flex;
+    align-items: center;
+    gap:6em;
+    padding: 0 3em;
+    margin-top: 10em;
+}
+
+
+.mywork-header span{
+    display: inline-block;
+    height: 0.2em;
+    flex-grow: 1;
+    background-color: #78212D;
+}
+
+.mywork-header h1{
+    border-top:0.18em solid #D5C3AE;
+    width:11em;
+    padding-top: 3em;
+    margin-top: -2.3em;
+    text-align: center;
+}
+
+.vlak{
+    position: fixed;
+}
+
+.vlak1{
+    width: 37em;
+    bottom: -21.5em;
+    left: 21.5em;
+    
+}
+
+.vlak2{
+    width: 31em;
+    bottom: -19em;
+    left: 42.89em;
+    z-index: -2;
+}
+
+.vlak3{
+    width: 73em;
+    bottom: -29em;
+    left: 3.5em;
+}
+
+.vlak4{
+    width: 73em;
+    bottom: -29em;
+    left: 3.5em;
+}
