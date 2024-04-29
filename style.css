@@ -105,7 +105,7 @@ nav ul {
     display: flex;
     gap: 1.5em;
     justify-content: flex-end;
-    padding: 0;
+    padding: 0 2em;
 
 }
 
@@ -178,6 +178,7 @@ nav ul li a:hover span {
 
 .introtekst div:nth-child(2) p {
     width: 18em;
+    line-height: 1.4em;
 }
 
 .introtekst div:nth-child(2) a {
