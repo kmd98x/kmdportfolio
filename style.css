@@ -486,9 +486,24 @@ left:0em;
 background: #78212D;
 opacity: 15%;
 bottom:0em;
-
 }
 
+.cases{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cases a{
+    width: 49%;
+}
+
+.cases img{
+    width: 100%;
+}
 /**
 ===========================================================================
                         MEDIA QUERY VAN 510 PX
