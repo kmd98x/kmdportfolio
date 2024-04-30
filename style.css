@@ -460,10 +460,11 @@ nav ul li a:hover span {
 }
 
 .vlak1{
-    width: 16em;
+    width: 12em;
     top: 6.8em;
     left: 50%;
     transform: translateX(-50%);
+    /* z-index: -4; */
 }
 
 .vlak2{
