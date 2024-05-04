@@ -537,22 +537,32 @@ bottom:0em;
 
 .cases a:nth-of-type(5) {
     width: 11em;
+    top:18.9em;
+    left:0.5em
 }
 
 .cases a:nth-of-type(6) {
-    width: 11em;
+    width: 10em;
+    top:18.9em;
+    right:0.5em;
 }
 
 .cases a:nth-of-type(7) {
     width: 11em;
+    top:26.4em;
+    left:0.5em;
 }
 
 .cases a:nth-of-type(8) {
-    width: 11em;
+    width: 8em;
+    top:30.7em;
+    right:0.5em;
 }
 
 .cases a:nth-of-type(9) {
-    width: 11em;
+    width: 13em;
+    top:34.4em;
+    left:0.5em;
 }
 
 /**
@@ -570,7 +580,6 @@ bottom:0em;
         width: 37em;
         bottom: -21.5em;
         left: 21.5em;
-        
     }
 
 
