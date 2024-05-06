@@ -579,6 +579,63 @@ bottom:0em;
 ===========================================================================
 */
 
+@media screen and (min-width:414px) {
+    .cases a:nth-of-type(1) {
+    width: 14em;
+    top: 1em;
+    left: 0.1em;
+}
+
+.cases a:nth-of-type(2) {
+    width: 8.7em;
+    top: 1em;
+    right:0.1em
+}
+
+.cases a:nth-of-type(3) {
+    width: 13em;
+    top:11.3em;
+    left:0.1em;
+}
+
+.cases a:nth-of-type(4) {
+    width: 9.7em;
+    top:13.9em;
+    right:0.1em
+}
+
+.cases a:nth-of-type(5) {
+    width: 13em;
+    top:20.2em;
+    left:0.1em
+}
+
+.cases a:nth-of-type(6) {
+    width: 9.6em;
+    top:20.9em;
+    right:0.1em;
+}
+
+.cases a:nth-of-type(7) {
+    width: 13em;
+    top:29em;
+    left:0.1em;
+}
+
+.cases a:nth-of-type(8) {
+    width: 9.3em;
+    top:32.2em;
+    right:0.1em;
+}
+
+.cases a:nth-of-type(9) {
+    width: 13em;
+    top:38.3em;
+    left:0.1em;
+}
+    
+}
+
 
 /**
 ===========================================================================
