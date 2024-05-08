@@ -1096,9 +1096,9 @@ nav ul li a:hover span {
     }
 
     .cases a:nth-of-type(1) {
-        width: 20em;
+        width: 22em;
         top: 8em;
-        left: 13em;
+        left: 11em;
     }
 
     .cases a:nth-of-type(2) {
@@ -1114,39 +1114,39 @@ nav ul li a:hover span {
     }
 
     .cases a:nth-of-type(4) {
-        width: 28em;
-        top: 25.7em;
-        left: 2em;
+        width: 30em;
+        top: 27em;
+        left: 1em;
     }
 
     .cases a:nth-of-type(5) {
-        width: 25em;
+        width: 27em;
         top: 29em;
-        left: 31em;
+        left: 33em;
     }
 
     .cases a:nth-of-type(6) {
         width: 17em;
-        top: 29em;
-        left: 60em;
+        top: 28em;
+        left: 62em;
     }
 
     .cases a:nth-of-type(7) {
-        width: 22em;
-        top: 33.5em;
-        left: 1em;
+        width: 27em;
+        top: 50em;
+        left: 8em;
     }
 
     .cases a:nth-of-type(8) {
         width: 17em;
         top: 48em;
-        right: 2em;
+        right: 25em;
     }
 
     .cases a:nth-of-type(9) {
         width: 20em;
         top: 50em;
-        left: 2em;
+        left: 56em;
     }
 
 }
