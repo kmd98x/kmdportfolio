@@ -480,8 +480,8 @@ nav ul li a:hover span {
 }
 
 .vlak2 {
-    width: 8em;
-    left: 13.4em;
+    width: 9em;
+    right: 1em;
     top: 5em;
     z-index: -2;
 }
@@ -694,7 +694,7 @@ nav ul li a:hover span {
     
     .vlak2 {
         width: 12em;
-        left: 17.4em;
+        right: 2em;
         top: 5em;
         z-index: -2;
     }
@@ -817,8 +817,8 @@ nav ul li a:hover span {
     }
     
     .vlak2 {
-        width: 15em;
-        left: 25em;
+        width: 17em;
+        right: 4em;
         top: 5em;
         z-index: -2;
     }
@@ -946,7 +946,7 @@ nav ul li a:hover span {
     
     .vlak2 {
         width: 25em;
-        left: 34em;
+        right: 5em;
         top: 5em;
         z-index: -2;
     }
@@ -1032,7 +1032,7 @@ nav ul li a:hover span {
 ===========================================================================
 */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
 
     .mywork-header {
         display: flex;
@@ -1072,7 +1072,7 @@ nav ul li a:hover span {
     
     .vlak2 {
         width: 25em;
-        left: 42em;
+        right: 13em;
         top: 5em;
         z-index: -2;
     }
