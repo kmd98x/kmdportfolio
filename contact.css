@@ -40,14 +40,15 @@
 }
 
 .eerstevlak {
-    width: 11.4em;
+    width: 13em;
     height: 3.5em;
     background: #78212D;
     opacity: 15%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 6.7em;
+    top: 8em;
+    z-index: -1;
 }
 
 .tweedevlak {
@@ -56,7 +57,7 @@
     background: #DFD2C3;
     opacity: 60%;
     position: absolute;
-    top: 9.5em;
+    top: 10.5em;
     z-index: -1;
     left: 0em;
 }
@@ -79,18 +80,18 @@
 
     .mywork-header h1 {
         width: 14em;
-        height: 3em;
         border-top: 0.2em solid #D5C3AE;
+        padding-top: 1em;
+        
 
     }
 
     .contactPagina {
-        margin-top: 3em;
         display: flex;
         width: 600px;
         justify-content: space-between;
         align-items: center;
-        margin: auto;
+        margin: 3em auto 0;
     }
 
     .contactPagina a {
@@ -168,8 +169,8 @@
 
     .mywork-header h1 {
         width: 14em;
-        height: 1em;
         border-top: 0.2em solid #D5C3AE;
+        
     }
 
     .mywork-header {
@@ -232,7 +233,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 0em;
+        top: 9em;
         border-radius: 5px;
     }
 
