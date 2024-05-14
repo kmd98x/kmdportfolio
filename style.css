@@ -101,16 +101,18 @@ article section.mijnfoto img {
 
 /**
 ===========================================================================
-                            MAVIGATIE BALK
+                            NAVIGATIE BALK
 ===========================================================================
 */
+nav {
+    padding: 2em;
+}
 
 nav ul {
     display: flex;
     gap: 1.5em;
     justify-content: flex-end;
-    padding: 0 2em;
-
+    padding: 0;
 }
 
 nav li {
@@ -269,6 +271,14 @@ nav ul li a:hover span {
 ===========================================================================
 */
 @media screen and (min-width: 725px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
 
     article section.mijnfoto p {
         font-size: 1.2em;
@@ -1233,11 +1243,11 @@ nav ul li a:hover span {
 
 @media screen and (min-width: 725px) {
 
-    .mywork-header h1{
+    .mywork-header h1 {
         width: 14em;
         height: 3em;
         border-top: 0.2em solid #D5C3AE;
-        
+
     }
 
     .contactPagina {
@@ -1262,17 +1272,17 @@ nav ul li a:hover span {
         width: 1.2em;
     }
 
-    .contactPagina section span{
+    .contactPagina section span {
         width: .1em;
         height: 5em;
-        background:#78212D ;
+        background: #78212D;
         display: block;
     }
 
-    .lines{
+    .lines {
         display: flex;
         flex-direction: column;
-        gap:5em;
+        gap: 5em;
     }
 
     .contactheader {
@@ -1322,14 +1332,14 @@ nav ul li a:hover span {
 
 @media screen and (min-width: 1024px) {
 
-    .mywork-header h1{
+    .mywork-header h1 {
         width: 14em;
         height: 1em;
         border-top: 0.2em solid #D5C3AE;
     }
 
-    .mywork-header{
-        gap:1em;
+    .mywork-header {
+        gap: 1em;
     }
 
     .contactPagina {
@@ -1343,9 +1353,9 @@ nav ul li a:hover span {
         transform: translateX(-50%);
     }
 
-    .contactinfo{
+    .contactinfo {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 0 4em;
     }
 
@@ -1362,17 +1372,17 @@ nav ul li a:hover span {
         width: 1.2em;
     }
 
-    .contactPagina section span{
+    .contactPagina section span {
         width: .1em;
         height: 5em;
-        background:#78212D ;
+        background: #78212D;
         display: block;
     }
 
-    .lines{
+    .lines {
         display: flex;
         flex-direction: column;
-        gap:5em;
+        gap: 5em;
     }
 
     .contactheader {
@@ -1405,7 +1415,3 @@ nav ul li a:hover span {
     }
 
 }
-
-
-
-
