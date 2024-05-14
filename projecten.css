@@ -11,7 +11,22 @@
     width: 3em;
     border-radius: 0.3em;
     text-align: center;
+    position: relative;
 }
+
+.project h1::after {
+    content: "";
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 4em;
+    width: 15em;
+    height: .1em;
+    background: #78212D;
+    display: inline-block;
+
+}
+
 
 .project p {
     background-color: #DDD0C0;
@@ -63,13 +78,7 @@ aside img {
 }
 
 .lijn1 {
-    position: absolute;
-    bottom: 16em;
-    left: 5.1em;
-    width: 18em;
-    height: .1em;
-    background: #78212D;
-    display: inline-block;
+  
 }
 
 
