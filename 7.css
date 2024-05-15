@@ -45,17 +45,17 @@
 }
 
 .creme7 {
-    width: 13em;
+    width: 12em;
     position: absolute;
-    left: 0em;
-    top: 14em;
+    left: 7em;
+    top: 10.5em;
     z-index: -2;
 }
 
 .rood7 {
-    width: 14em;
+    width:7em;
     position: absolute;
-    left: 8em;
+    left: 1em;
     top: 10em;
     z-index: -1;
 }
@@ -65,7 +65,7 @@
     width: 19em;
     margin: auto;
     margin-top: 1em;
-    height: 13em;
+    height: 15em;
     overflow: hidden;
 }
 
@@ -94,18 +94,18 @@
     }
 
     .creme7 {
-        width: 23em;
+        width: 18em;
         position: absolute;
-        left: 0em;
-        top: 14em;
+        left: 10em;
+        top: 10em;
         z-index: -2;
     }
 
     .rood7 {
-        width: 23em;
+        width: 10em;
         position: absolute;
-        left: 8em;
-        top: 10em;
+        left: 1em;
+        top: 9.5em;
         z-index: -1;
     }
 
@@ -114,7 +114,7 @@
         width: 28em;
         margin: auto;
         margin-top: 1em;
-        height: 18em;
+        height: 22em;
         overflow: hidden;
     }
 
@@ -174,18 +174,18 @@
     }
 
     .creme7 {
-        width: 30em;
+        width: 21em;
         position: absolute;
-        left: 0em;
-        top: 11em;
+        left: 13em;
+        top: 8em;
         z-index: -2;
     }
 
     .rood7 {
-        width: 30em;
+        width: 12em;
         position: absolute;
-        left: 11em;
-        top: 8em;
+        left: 4em;
+        top: 7em;
         z-index: -1;
     }
 
@@ -194,7 +194,7 @@
         width: 34em;
         margin: auto;
         margin-top: 1em;
-        height: 19em;
+        height: 23em;
         overflow: hidden;
     }
 
@@ -212,7 +212,7 @@
         width: 8em;
         border-radius: 0.3em;
         text-align: center;
-        margin-top: 4em;
+        margin-top: 3em;
         position: relative;
     }
     
@@ -259,24 +259,24 @@
     }
 
     .creme7 {
-        width: 27em;
+        width: 21.5em;
         position: absolute;
-        left: 0em;
-        top: 13em;
+        left: 11em;
+        top: 8em;
         z-index: -2;
     }
 
     .rood7 {
-        width: 28em;
+        width: 12em;
         position: absolute;
-        left: 10em;
-        top: 8em;
+        left: 2em;
+        top: 7.5em;
         z-index: -1;
     }
 
     .project7 aside {
         position: relative;
-        width: 400em;
+        width: 300em;
         margin-left: 3em;
         margin-top: 1em;
         height: 25em;
@@ -293,8 +293,8 @@
     .project7 .lijn2 {
         position: absolute;
         bottom: 9em;
-        right: 0em;
-        width: 18em;
+        right: -3em;
+        width: 15em;
         height: .15em;
         background: #78212D;
         display: inline-block;
@@ -357,24 +357,24 @@
     }
 
     .creme7 {
-        width: 38em;
+        width: 28.5em;
         position: absolute;
-        left: 0em;
-        top: 10em;
+        left: 15em;
+        top: 8em;
         z-index: -2;
     }
 
     .rood7 {
-        width: 37em;
+        width: 16em;
         position: absolute;
-        left: 9em;
+        left: 1.5em;
         top: 7em;
         z-index: -1;
     }
 
     .project7 aside {
         position: relative;
-        width: 380em;
+        width: 350em;
         margin-left: 3em;
         margin-top: 1em;
         height: 35em;
@@ -392,7 +392,7 @@
         position: absolute;
         bottom: 12em;
         right: 0em;
-        width: 24em;
+        width: 18em;
         height: .2em;
         background: #78212D;
         display: inline-block;
