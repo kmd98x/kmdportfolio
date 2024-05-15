@@ -45,27 +45,27 @@
 }
 
 .creme5 {
-    width: 8em;
+    width: 13em;
     position: absolute;
-    left: 2em;
-    top: 10.5em;
+    left: 0em;
+    top: 14em;
     z-index: -2;
 }
 
 .rood5 {
-    width: 15em;
+    width: 14em;
     position: absolute;
-    left: 7.5em;
-    top: 13em;
+    left: 8em;
+    top: 10em;
     z-index: -1;
 }
 
 .project5 aside  {
     position: relative;
-    width: 17em;
+    width: 19em;
     margin: auto;
     margin-top: 1em;
-    height: 18em;
+    height: 13em;
     overflow: hidden;
 }
 
@@ -94,18 +94,18 @@
     }
 
     .creme5 {
-        width: 11em;
+        width: 23em;
         position: absolute;
-        left: 5em;
-        top: 9em;
+        left: 0em;
+        top: 14em;
         z-index: -2;
     }
 
     .rood5 {
-        width: 20em;
+        width: 23em;
         position: absolute;
-        left: 11em;
-        top: 13em;
+        left: 8em;
+        top: 10em;
         z-index: -1;
     }
 
@@ -114,7 +114,7 @@
         width: 28em;
         margin: auto;
         margin-top: 1em;
-        height: 20em;
+        height: 18em;
         overflow: hidden;
     }
 
@@ -132,7 +132,7 @@
         width: 8em;
         border-radius: 0.3em;
         text-align: center;
-        margin-top: 4em;
+        margin-top: 1em;
         position: relative;
     }
     
@@ -174,18 +174,18 @@
     }
 
     .creme5 {
-        width: 15em;
+        width: 30em;
         position: absolute;
-        left: 5em;
-        top: 8em;
+        left: 0em;
+        top: 11em;
         z-index: -2;
     }
 
     .rood5 {
-        width: 28em;
+        width: 30em;
         position: absolute;
-        left: 15em;
-        top: 11em;
+        left: 11em;
+        top: 8em;
         z-index: -1;
     }
 
@@ -194,7 +194,7 @@
         width: 34em;
         margin: auto;
         margin-top: 1em;
-        height: 25em;
+        height: 19em;
         overflow: hidden;
     }
 
@@ -259,24 +259,24 @@
     }
 
     .creme5 {
-        width: 15em;
+        width: 27em;
         position: absolute;
-        left: 5em;
-        top: 8em;
+        left: 0em;
+        top: 13em;
         z-index: -2;
     }
 
     .rood5 {
         width: 28em;
         position: absolute;
-        left: 8em;
-        top: 10em;
+        left: 10em;
+        top: 8em;
         z-index: -1;
     }
 
     .project5 aside {
         position: relative;
-        width: 200em;
+        width: 400em;
         margin-left: 3em;
         margin-top: 1em;
         height: 25em;
@@ -305,7 +305,7 @@
         z-index: 1;
         padding:  1.5em 3em;
         font-size: 1.2em;
-        width: 7em;
+        width: 8em;
         border-radius: 0.3em;
         text-align: center;
         margin-top: 4em;
@@ -357,24 +357,24 @@
     }
 
     .creme5 {
-        width: 18em;
+        width: 38em;
         position: absolute;
-        left: 5em;
-        top: 6em;
+        left: 0em;
+        top: 10em;
         z-index: -2;
     }
 
     .rood5 {
-        width: 33em;
+        width: 37em;
         position: absolute;
-        left: 8em;
-        top: 11em;
+        left: 9em;
+        top: 7em;
         z-index: -1;
     }
 
     .project5 aside {
         position: relative;
-        width: 150em;
+        width: 380em;
         margin-left: 3em;
         margin-top: 1em;
         height: 35em;
@@ -403,7 +403,7 @@
         z-index: 1;
         padding:  1.5em 3em;
         font-size: 1.2em;
-        width: 3em;
+        width: 8em;
         border-radius: 0.3em;
         text-align: center;
         margin-top: 4em;
