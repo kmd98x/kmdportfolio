@@ -48,7 +48,7 @@
     width: 10em;
     position: absolute;
     left: 4em;
-    top: 8em;
+    top: 9em;
     z-index: -2;
 }
 
@@ -56,7 +56,7 @@
     width: 15em;
     position: absolute;
     left: 7.5em;
-    top: 10em;
+    top: 11em;
     z-index: -1;
 }
 
@@ -64,7 +64,7 @@
     position: relative;
     width: 18em;
     margin: auto;
-    margin-top: 5em;
+    margin-top: 2em;
     height: 15em;
     overflow: hidden;
 }
@@ -97,7 +97,7 @@
         width: 14em;
         position: absolute;
         left: 5em;
-        top: 8em;
+        top: 9em;
         z-index: -2;
     }
 
@@ -105,7 +105,7 @@
         width: 18em;
         position: absolute;
         left: 12em;
-        top: 10em;
+        top: 12em;
         z-index: -1;
     }
 
@@ -113,7 +113,7 @@
         position: relative;
         width: 24em;
         margin: auto;
-        margin-top: 5em;
+        margin-top: 3em;
         height: 15em;
         overflow: hidden;
     }
@@ -185,7 +185,7 @@
         width: 28em;
         position: absolute;
         left: 15em;
-        top: 10em;
+        top: 11em;
         z-index: -1;
     }
 
@@ -278,7 +278,7 @@
         position: relative;
         width: 110em;
         margin-left: 3em;
-        margin-top: 5em;
+        margin-top: 4em;
         height: 25em;
         overflow: hidden;
     }
@@ -340,7 +340,7 @@
                         MEDIA QUERY VAN 1280px
 ===========================================================================
 */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
 
     main{
         display: flex;
@@ -368,7 +368,7 @@
         width: 33em;
         position: absolute;
         left: 15em;
-        top: 9em;
+        top: 11em;
         z-index: -1;
     }
 
@@ -376,7 +376,7 @@
         position: relative;
         width: 100em;
         margin-left: 3em;
-        margin-top: 5em;
+        margin-top: 4em;
         height: 30em;
         overflow: hidden;
     }
@@ -805,7 +805,7 @@
         opacity: 1;
     }
 
-    .creme1 {
+    .creme2 {
         width: 24em;
         position: absolute;
         left: 5em;
@@ -813,7 +813,7 @@
         z-index: -2;
     }
 
-    .rood1 {
+    .rood2 {
         width: 33em;
         position: absolute;
         left: 15em;
