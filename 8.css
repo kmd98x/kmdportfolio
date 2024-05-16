@@ -45,27 +45,27 @@
 }
 
 .creme8 {
-    width: 13em;
+    width: 10em;
     position: absolute;
-    left: 0em;
-    top: 14em;
+    left: 4.5em;
+    top: 16em;
     z-index: -2;
 }
 
 .rood8 {
-    width: 14em;
+    width: 10em;
     position: absolute;
-    left: 8em;
+    left: 9em;
     top: 10em;
     z-index: -1;
 }
 
 .project8 aside  {
     position: relative;
-    width: 19em;
+    width: 12em;
     margin: auto;
     margin-top: 1em;
-    height: 13em;
+    height: 23em;
     overflow: hidden;
 }
 
@@ -94,27 +94,27 @@
     }
 
     .creme8 {
-        width: 23em;
+        width: 16em;
         position: absolute;
-        left: 0em;
-        top: 14em;
+        left: 5em;
+        top: 17em;
         z-index: -2;
     }
 
     .rood8 {
-        width: 23em;
+        width: 15em;
         position: absolute;
-        left: 8em;
+        left: 12em;
         top: 10em;
         z-index: -1;
     }
 
     .project8 aside {
         position: relative;
-        width: 28em;
+        width: 18em;
         margin: auto;
         margin-top: 1em;
-        height: 18em;
+        height: 36em;
         overflow: hidden;
     }
 
@@ -174,27 +174,27 @@
     }
 
     .creme8 {
-        width: 30em;
+        width: 20em;
         position: absolute;
-        left: 0em;
-        top: 11em;
+        left: 8em;
+        top: 12em;
         z-index: -2;
     }
 
     .rood8 {
-        width: 30em;
+        width:18em;
         position: absolute;
-        left: 11em;
-        top: 8em;
+        left: 17em;
+        top: 7em;
         z-index: -1;
     }
 
     .project8 aside {
         position: relative;
-        width: 34em;
+        width: 20em;
         margin: auto;
         margin-top: 1em;
-        height: 19em;
+        height: 39em;
         overflow: hidden;
     }
 
@@ -212,7 +212,7 @@
         width: 8em;
         border-radius: 0.3em;
         text-align: center;
-        margin-top: 4em;
+        margin-top: 2em;
         position: relative;
     }
     
@@ -259,27 +259,27 @@
     }
 
     .creme8 {
-        width: 27em;
+        width: 18em;
         position: absolute;
-        left: 0em;
-        top: 13em;
+        left: 2em;
+        top: 12em;
         z-index: -2;
     }
 
     .rood8 {
-        width: 28em;
+        width: 17em;
         position: absolute;
-        left: 10em;
+        left: 6em;
         top: 8em;
         z-index: -1;
     }
 
     .project8 aside {
         position: relative;
-        width: 400em;
+        width: 70em;
         margin-left: 3em;
         margin-top: 1em;
-        height: 25em;
+        height: 45em;
         overflow: hidden;
     }
 
@@ -357,27 +357,27 @@
     }
 
     .creme8 {
-        width: 38em;
+        width: 22em;
         position: absolute;
-        left: 0em;
-        top: 10em;
+        left: 1em;
+        top: 16em;
         z-index: -2;
     }
 
     .rood8 {
-        width: 37em;
+        width: 21.5em;
         position: absolute;
-        left: 9em;
+        left: 8em;
         top: 7em;
         z-index: -1;
     }
 
     .project8 aside {
         position: relative;
-        width: 380em;
+        width: 75em;
         margin-left: 3em;
         margin-top: 1em;
-        height: 35em;
+        height: 50em;
         overflow: hidden;
     }
 
